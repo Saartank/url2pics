@@ -1,0 +1,11 @@
+__pycache__/
+.Python
+.env
+*.conda
+.vscode/
+.mypy_cache/
+.ipynb_checkpoints
+ipython_config.py
+*.log
+logs/
+*.db

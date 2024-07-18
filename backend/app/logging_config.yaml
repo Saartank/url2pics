@@ -1,0 +1,44 @@
+version: 1
+disable_existing_loggers: False
+
+formatters:
+  colored:
+    (): colorlog.ColoredFormatter
+    format: "%(log_color)s%(levelname)s%(reset)s %(asctime)s - %(name)s - %(module)s - %(message)s"
+    log_colors:
+      DEBUG: bold_blue
+      INFO: bold_green
+      WARNING: bold_yellow
+      ERROR: bold_red
+      CRITICAL: bold_red
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: colored
+    level: DEBUG
+
+loggers:
+  app_logger:
+    handlers: [console]
+    level: DEBUG
+    propagate: False
+
+  uvicorn:
+    handlers: [console]
+    level: INFO
+    propagate: False
+
+  uvicorn.error:
+    handlers: [console]
+    level: ERROR
+    propagate: False
+
+  uvicorn.access:
+    handlers: [console]
+    level: INFO
+    propagate: False
+
+root:
+  handlers: [console]
+  level: INFO

@@ -1,0 +1,39 @@
+version: '3.9'
+
+services:
+  backend:
+    image: saartank/url2pics-backend:v0.1
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=<DATABASE_URL>
+      - AWS_ACCESS_KEY_ID=<AWS_ACCESS_KEY_ID>
+      - AWS_SECRET_ACCESS_KEY=<AWS_SECRET_ACCESS_KEY>
+      - AWS_S3_BUCKET_NAME=webscraped-images-bucket
+      - AWS_S3_REGION=us-east-2
+      - JWT_SECRET_KEY=<JWT_SECRET_KEY>
+    networks:
+      - my-network
+
+  frontend:
+    image: saartank/url2pics-frontend:v0.1
+    ports:
+      - "3000:3000"
+    networks:
+      - my-network
+
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge

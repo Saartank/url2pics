@@ -1,0 +1,92 @@
+{
+  "id": 1,
+  "url": "https://en.wikipedia.org/wiki/Coriander",
+  "created_at": "2024-07-05T02:07:34.749603",
+  "user_id": "e7ecc569-378e-4bfb-8cc6-42e85f1d23c7",
+  "images": [
+    {
+      "id": 1,
+      "url": "https://webscraped-images-bucket.s3.us-east-2.amazonaws.com/wikipedia_uuid_7c3f05dc-8804-4885-9fc7-ae3ddd416eba.png",
+      "width": 100,
+      "height": 100,
+      "extension": "png"
+    },
+    {
+      "id": 2,
+      "url": "https://webscraped-images-bucket.s3.us-east-2.amazonaws.com/220px-coriandrum_sativum_-_k_c3_b6hler_e2_80_93s_medizinal-pflanzen-193_uuid_58ee7547-7201-4890-a170-94589c68cfb0.jpg",
+      "width": 220,
+      "height": 277,
+      "extension": "jpeg"
+    },
+    {
+      "id": 3,
+      "url": "https://webscraped-images-bucket.s3.us-east-2.amazonaws.com/15px-oojs_ui_icon_edit-ltr.svg_uuid_de040493-7baf-4409-a3bd-85cc474c59a1.png",
+      "width": 15,
+      "height": 15,
+      "extension": "png"
+    },
+    {
+      "id": 4,
+      "url": "https://webscraped-images-bucket.s3.us-east-2.amazonaws.com/220px-coriander_seeds_uuid_42d793c9-4efc-4ab8-8534-d00d5a179d06.jpg",
+      "width": 220,
+      "height": 147,
+      "extension": "jpeg"
+    },
+    {
+      "id": 5,
+      "url": "https://webscraped-images-bucket.s3.us-east-2.amazonaws.com/220px-a_scene_of_coriander_leaves_uuid_1935a0b5-096a-4783-84a9-4067e692b6e2.jpg",
+      "width": 220,
+      "height": 165,
+      "extension": "jpeg"
+    },
+    {
+      "id": 6,
+      "url": "https://webscraped-images-bucket.s3.us-east-2.amazonaws.com/220px-coriander_roots_uuid_4e963610-7099-4587-9376-2b4143d37f6d.jpg",
+      "width": 220,
+      "height": 148,
+      "extension": "jpeg"
+    },
+    {
+      "id": 7,
+      "url": "https://webscraped-images-bucket.s3.us-east-2.amazonaws.com/50px-question_book-new.svg_uuid_e555eb73-9626-4a8d-8c9b-d85153095d39.png",
+      "width": 50,
+      "height": 39,
+      "extension": "png"
+    },
+    {
+      "id": 8,
+      "url": "https://webscraped-images-bucket.s3.us-east-2.amazonaws.com/132px-linalool_skeletal.svg_uuid_64aa99f0-8441-4e14-9ed7-8d9d1d7b71a9.png",
+      "width": 132,
+      "height": 40,
+      "extension": "png"
+    },
+    {
+      "id": 9,
+      "url": "https://webscraped-images-bucket.s3.us-east-2.amazonaws.com/225px-coriandrum_sativum_003_uuid_2bc0b9d8-6a28-48b7-aee5-ab65fda6fbe3.jpg",
+      "width": 225,
+      "height": 225,
+      "extension": "jpeg"
+    },
+    {
+      "id": 10,
+      "url": "https://webscraped-images-bucket.s3.us-east-2.amazonaws.com/12px-commons-logo.svg_uuid_2a0858ab-6d15-425e-b69b-c3224cd62976.png",
+      "width": 12,
+      "height": 17,
+      "extension": "png"
+    },
+    {
+      "id": 11,
+      "url": "https://webscraped-images-bucket.s3.us-east-2.amazonaws.com/200px-onion_corriander_paratha_uuid_b8210dc6-c3a0-4631-9575-de84e872b66d.jpg",
+      "width": 200,
+      "height": 150,
+      "extension": "jpeg"
+    },
+    {
+      "id": 12,
+      "url": "https://webscraped-images-bucket.s3.us-east-2.amazonaws.com/10px-oojs_ui_icon_edit-ltr-progressive.svg_uuid_ca84fa8b-3d1d-475f-b939-1780ad879b51.png",
+      "width": 10,
+      "height": 10,
+      "extension": "png"
+    }
+  ]
+}
